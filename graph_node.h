@@ -23,13 +23,13 @@ void Node::set_new_entry_node()
 {
 	in_degree++;
 }
-void Node::set_type(char type)
+void Node::set_type(char type_)
 {
-	type = type;
+	type = type_;
 }
-void Node::set_value(int value)
+void Node::set_value(int value_)
 {
-	value = value;
+	value = value_;
 }
 int Node::alter_in_degree(bool type)
 {
